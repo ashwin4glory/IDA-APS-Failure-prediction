@@ -37,14 +37,6 @@ It is a binary classification problem. For the given numerical data on some attr
 ### 2.2.2 Performance Metric
 Here we'll be dealing with a cost function.
 
-+---+------+------+
-|   |  0   |  1   |
-+---+------+------+
-| 0 |  TN  |  FP  |
-| 1 |  FN  |  TP  |
-+---+------+------+
-In the above shown confusion matrix x-axis corresponds to the predicted class and the y-axis corresponds to the actual class.
-
 The cost function we have is:
 
     Cost = FN X 500 + FP X 10 
